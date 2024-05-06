@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./img/background.png"); /* Replace with your image path */
+  background-size: cover; /* Stretch the image to fill the entire viewport */
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image horizontally and vertically */
+  font-family: sans-serif; /* Set a basic font family */
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
