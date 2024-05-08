@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom'; // For navigation
 import { getDatabase, ref, get, onValue } from 'firebase/database';
 import logo from '../img/icon.svg'
 import setLoginCookie from '../setLoginCookie.js';
+import SetUid from '../SetUid.js';
 
 const app = firebase.initializeApp({
   apiKey: "AIzaSyCDRAoBX79TlG3bj5vrE4ozvB2unbIgq7w",
@@ -43,9 +44,10 @@ const Login = () => {
   const getUsername = async (user) => {
     const userRef = ref(db, `users/${user.uid}`);
     try {
+      SetUid(user.uid);
       const username = onValue(userRef, (snapshot) => {
         const data = snapshot.val();
-        setLoginCookie(data.nameValue); // Check for existence of username
+        setLoginCookie(data.nameValue); 
       });
     } catch (error) {
       console.error('Error storing username:', error);

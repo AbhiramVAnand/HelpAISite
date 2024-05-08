@@ -1,11 +1,11 @@
 import React from 'react';
 import Cookies from 'js-cookie';
 
-const setLoginCookie = (userName) =>{
+const SetUid = (uid) =>{
   const expirationDate = new Date();
   expirationDate.setDate(expirationDate.getDate()+300);
-  Cookies.set('helpaiUid',userName,{expires: expirationDate});
+  Cookies.set('Uid',uid,{expires: expirationDate});
   return true;
 };
 
-export default setLoginCookie;
+export default SetUid;

@@ -2,11 +2,15 @@
 
 .home-container {
   display: flex;
+  background-image: url("./img/background.png"); /* Replace with your image path */
+  background-size: cover; /* Stretch the image to fill the entire viewport */
+  background-repeat: no-repeat;
+  background-position: center;
   font-family: "Poppins", sans-serif;
   flex-direction: column; /* Stack elements vertically */
   margin: 0 auto; /* Center the container horizontally within the viewport */
   width: 100%; /* Adjust width as needed */
-  height: 100%;
+  height: 100vh;
 }
 
 .home-container .navbar {
@@ -288,4 +292,333 @@
   background-color: #0048cd;
   border: 1px solid #0048cd;
   border-radius: 12px;
+}
+
+
+/* UserHome CSS */
+
+.userhome-container{
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column; /* Stack elements vertically */
+  margin: 0 auto; /* Center the container horizontally within the viewport */
+  width: 100%; /* Adjust width as needed */
+  height: 100vh;
+}
+
+.userhome-container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3e3e3e;
+  padding: 15px 30px;
+}
+
+.userhome-container .navbar nav ul{
+  list-style: none;
+}
+.userhome-container .navbar .pages li {
+  margin-right: 60px;
+  display: inline;
+  justify-content: space-evenly;
+}
+
+.userhome-container .navbar .pages li a {
+  text-decoration: none;
+  color: #fff;
+}
+.userhome-container .navbar .pages li a:hover{
+  text-decoration: none;
+  color: #c0c0c0;
+}
+.userhome-content-container{
+  padding: 10px 40px;
+  width: 100%;
+}
+.userhome-content-container #welcome h1{
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.userhome-content-container #chatbots #heading{
+  margin-top: 30px;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.userhome-content-container #chatbots .chatbot-list{
+  display: flex;
+  flex-direction: row;
+}
+.userhome-content-container #chatbots .chatbot-list .items {
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.userhome-content-container #chatbots .chatbot-list #add-chatbot{
+  background-color: #0156f9;
+  text-decoration: none;
+  height: 25vh;
+  width: 20ch;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userhome-content-container #chatbots .chatbot-list #add-chatbot #add-icon{
+  color: #fff;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.userhome-content-container #chatbots .chatbot-list #add-chatbot #title{
+  color: #fff;
+  font-size: large;
+}
+
+.userhome-content-container #chatbots .chatbot-list #add-chatbot:hover{
+  background-color: #004cd8;
+}
+
+.userhome-content-container #chatbots .chatbot-list #item {
+  display: flex;
+  flex-direction: column;
+}
+
+.userhome-content-container #chatbots #item{
+  display: flex;
+}
+
+.userhome-content-container #chatbots #chatbot-items{
+  height: 25vh;
+  width: 20ch;
+  border-radius: 12px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.181); 
+  text-decoration: none;
+  color: #000;
+  position: relative; 
+}
+.userhome-content-container #chatbots #chatbot-items:hover{
+  background-color: #f3f3f3;
+}
+
+.userhome-container #chatbots #chatbot-items #title{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: larger;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.userhome-container #chatbots #chatbot-items #url{
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: small;
+  font-style: italic;
+  color: #2a2f3e;
+  position: absolute;
+  left: 0;
+  right: 0; 
+  bottom: 0;
+}
+
+
+.userhome-content-container #get-started #heading{
+  margin-top: 30px;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.userhome-content-container #get-started .docs-list{
+  display: flex;
+  flex-direction: row;
+}
+.userhome-content-container #get-started .docs-list .items {
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.userhome-content-container #get-started .docs-list #item {
+  display: flex;
+  flex-direction: column;
+}
+
+.userhome-content-container #get-started .docs-list #items {
+  height: 25vh;
+  width: 20ch;
+  border-radius: 12px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.181); 
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userhome-content-container #get-started .docs-list #items:hover {
+  background-color: #f3f3f3;
+}
+
+.userhome-content-container #get-started .docs-list #title {
+  font-size: large;
+  margin-top: 10px;
+}
+
+.userhome-content-container #get-started .docs-list #icon {
+  height: 30px;
+}
+
+/* CreateCB */
+
+
+.create-content-container #motto{
+  margin-top: 15vh;
+  font-weight: 700;
+  line-height: 110%;
+  font-size: 3rem;
+}
+
+.create-content-container #descp{
+  font-size: 1.3rem;
+}
+.create-content-container #input{
+  display: block;
+  align-items: center;
+}
+
+.create-content-container #input button{
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #0156f9;
+  font-family: "Poppins", sans-serif;
+  color: #fff; /* Text color for buttons */
+  padding: 10px 20px; /* Adjust button padding */
+  border: 1px solid #0156f9;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.create-content-container #input button:hover{
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #0048cd;
+  color: #fff; /* Text color for buttons */
+  padding: 10px 20px; /* Adjust button padding */
+  border: 1px solid #0048cd;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.create-content-container #input{
+  margin-top: 10px;
+}
+
+.create-content-container #input input{
+  height: 5vh;
+  width: 30ch;
+  padding: 8px 14px;
+  font-size: 1.4rem;
+  background-color: #fafeff;
+  border: 2px solid #8d8d8d;
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
+}
+.create-content-container #input input:focus{
+  background-color: #fafeff;
+  border-radius: 8px;
+}
+
+.loading-screen{
+  background-image: url("./img/background.png"); /* Replace with your image path */
+  background-size: cover; /* Stretch the image to fill the entire viewport */
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loading-screen img{
+  height: 70px;
+}
+.loading-screen p{
+  font-size: x-large;
+  margin-top: 5px;
+}
+
+.loading-circle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  border-top-color: #007bff; /* Adjust the color as needed */
+  animation: spin 1s linear infinite;
+}
+
+.loading-circle .inner {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.deploy-content-container{
+  background-image: url("./img/background.png"); /* Replace with your image path */
+  background-size: cover; /* Stretch the image to fill the entire viewport */
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.deploy-content-container #text{
+  font-size: x-large;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.deploy-content-container .instruction-steps h1{
+  font-size: larger;
+  font-weight: 500;
+}
+
+.deploy-content-container .instruction-steps pre{
+  font-style: italic;
+}
+
+.deploy-content-container button{
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #0156f9;
+  font-family: "Poppins", sans-serif;
+  color: #fff; /* Text color for buttons */
+  padding: 10px 20px; /* Adjust button padding */
+  border: 1px solid #0156f9;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.deploy-content-container button:hover{
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #0048cd;
+  color: #fff; /* Text color for buttons */
+  padding: 10px 20px; /* Adjust button padding */
+  border: 1px solid #0048cd;
+  border-radius: 12px;
+  text-decoration: none;
 }
