@@ -41,20 +41,20 @@ const Home = () => {
                             <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="/signup">Documentation</a>
+                            <a href="/documentation">Documentation</a>
                         </li>
                         <li>
-                          <a href="#">About Us</a>
+                          <a href="/aboutus">About Us</a>
                         </li>
                     </ul>
                 </nav>
                 <nav className='loginsignup'>
                   <ul>
                     <li>
-                      <a href="login" id="login">Log in</a>
+                      <a href="/login" id="login">Log in</a>
                     </li>
                     <li>
-                      <a href="signup" id="signup">Sign Up</a>
+                      <a href="/signup" id="signup">Sign Up</a>
                     </li>
                   </ul>
                 </nav>
