@@ -32,8 +32,8 @@ const Deploy = () =>{
                         </p>
                         <pre>
                           &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"&gt;&lt;/script&gt;<br/><br/>
-                          &lt;script src="https://cdn.jsdelivr.net/gh/AbhiramVAnand/HelpAI/chatbot.js"&gt;&lt;/script&gt;<br/><br/>
-                          &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbhiramVAnand/HelpAI/chatbot.css"&gt;
+                          &lt;script src="https://cdn.jsdelivr.net/gh/AbhiramVAnand/HelpAiServer/CbDeployment/chatbot.js"&gt;&lt;/script&gt;<br/><br/>
+                          &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbhiramVAnand/HelpAiServer/CbDeployment/chatbot.css"&gt;
                         </pre>
                       </li>
                       <li>
