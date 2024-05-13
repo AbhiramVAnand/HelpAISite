@@ -93,7 +93,7 @@ const Login = () => {
         <a href='/'><img id="logo" src={logo}/></a>
         <div className='login'>          
             <span>New to HelpAI?</span>&nbsp;
-            <a href='/signup'>Sign Up</a>
+            <Link to="/signup" id="signup"><a>Sign Up</a></Link>
         </div>
       </div>
 

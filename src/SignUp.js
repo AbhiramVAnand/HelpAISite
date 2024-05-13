@@ -96,7 +96,7 @@ function SignUp(props) {
         <a href='/'><img id="logo" src={logo}/></a>
         <div className='login'>          
             <span>Already have an account?</span>&nbsp;
-            <a href='/login'>Log in</a>
+            <Link to = "/login"  id="login"><a>Log in</a></Link>
         </div>
       </div>
 

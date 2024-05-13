@@ -105,15 +105,15 @@ const CreateCB = () =>{
                         <a href='/userhome'><img id="logo" src={logowhite}/></a>
                         <nav className='pages'>
                             <ul>
-                                <li>
-                                    <a href="/userhome">Home</a>
-                                </li>
-                                <li>
-                                    <a href="/documentation">Documentation</a>
-                                </li>
-                                <li>
-                                  <a href="/aboutus">About Us</a>
-                                </li>
+                              <li>
+                                <Link to="#"><a>Home</a></Link>
+                              </li>
+                              <li>
+                                <Link to="/documentation"><a>Documentation</a></Link>
+                              </li>
+                              <li>
+                                <Link to="/aboutus"><a>About Us</a></Link>
+                              </li>
                             </ul>
                         </nav>
                     </div>

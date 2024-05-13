@@ -49,13 +49,13 @@ const UserHome = () =>{
                 <nav className='pages'>
                     <ul>
                         <li>
-                            <a href="/userhome">Home</a>
+                          <Link to="#"><a>Home</a></Link>
                         </li>
                         <li>
-                            <a href="/documentation">Documentation</a>
+                          <Link to="/documentation"><a>Documentation</a></Link>
                         </li>
                         <li>
-                          <a href="/aboutus">About Us</a>
+                          <Link to="/aboutus"><a>About Us</a></Link>
                         </li>
                     </ul>
                 </nav>
