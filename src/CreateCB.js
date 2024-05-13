@@ -8,7 +8,7 @@ import { getDatabase, ref, set, onValue} from 'firebase/database';
 import {getAuth} from 'firebase/auth'
 import logo from './img/icon.svg'
 import logowhite from './img/logowhite.svg'
-import './App.css'
+import { Link } from 'react-router-dom';
 
 
 const app = firebase.initializeApp({

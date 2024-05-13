@@ -7,6 +7,7 @@ import { getDatabase, ref, set } from 'firebase/database';
 import GetMail from './GetMail.js';
 import logo from './img/icon.svg'
 import setLoginCookie from './setLoginCookie.js';
+import { Link } from 'react-router-dom';
 
 const app = firebase.initializeApp({
   apiKey: "AIzaSyCDRAoBX79TlG3bj5vrE4ozvB2unbIgq7w",

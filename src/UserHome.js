@@ -8,6 +8,7 @@ import { getDatabase, ref, set, onValue} from 'firebase/database';
 import {getAuth} from 'firebase/auth'
 import GetUId from './GetUId';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import { faCirclePlus, faPlayCircle, faNoteSticky } from '@fortawesome/free-solid-svg-icons';
 
 
