@@ -4,8 +4,8 @@ import "firebase/compat/auth"
 import { useNavigate } from 'react-router-dom'; // For navigation
 import { getDatabase, ref, get, onValue } from 'firebase/database';
 import logo from '../img/icon.svg'
-import setLoginCookie from '../setLoginCookie.js';
-import SetUid from '../SetUid.js';
+import setLoginCookie from './setLoginCookie.js';
+import SetUid from './SetUid.js';
 
 const app = firebase.initializeApp({
   apiKey: "AIzaSyCDRAoBX79TlG3bj5vrE4ozvB2unbIgq7w",

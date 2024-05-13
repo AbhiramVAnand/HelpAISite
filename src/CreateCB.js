@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import GetUName from '../GetUName';
+import GetUName from './GetUName';
 import firebase from "firebase/compat/app"
 import "firebase/compat/auth"
 import "firebase/compat/database"

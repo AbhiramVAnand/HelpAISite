@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import GetUName from '../GetUName';
+import GetUName from './GetUName';
 import logo from '../img/logowhite.svg'
 import firebase from "firebase/compat/app"
 import "firebase/compat/auth"
 import "firebase/compat/database"
 import { getDatabase, ref, set, onValue} from 'firebase/database';
 import {getAuth} from 'firebase/auth'
-import GetUId from '../GetUId';
+import GetUId from './GetUId';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlus, faPlayCircle, faNoteSticky } from '@fortawesome/free-solid-svg-icons';
 

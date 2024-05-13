@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
 import '../App.css'
 import logo from '../img/icon.svg'
-import setMailCookie from '../setMailCookie'
+import setMailCookie from './setMailCookie'
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(false); // State for loading indicator
