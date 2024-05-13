@@ -41,20 +41,20 @@ const Home = () => {
                             <a href="#">Home</a>
                         </li>
                         <li>
-                            <a  onClick={navigate('/documentation')}>Documentation</a>
+                            <a href="/documentation">Documentation</a>
                         </li>
                         <li>
-                          <a onClick={navigate('/aboutus')}>About Us</a>
+                          <a href="/aboutus">About Us</a>
                         </li>
                     </ul>
                 </nav>
                 <nav className='loginsignup'>
                   <ul>
                     <li>
-                      <a onClick={navigate('/login')} id="login">Log in</a>
+                      <a href="/login" id="login">Log in</a>
                     </li>
                     <li>
-                      <a onClick={navigate('/signup')} id="signup">Sign Up</a>
+                      <a href="/signup" id="signup">Sign Up</a>
                     </li>
                   </ul>
                 </nav>
