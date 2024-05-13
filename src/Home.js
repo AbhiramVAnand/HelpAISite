@@ -39,13 +39,13 @@ const Home = () => {
                 <nav className='pages'>
                     <ul>
                         <li>
-                            <a href="#">Home</a>
+                          <Link to="#"><a>Home</a></Link>
                         </li>
                         <li>
-                            <a href="/documentation">Documentation</a>
+                          <Link to="/documentation"><a>Documentation</a></Link>
                         </li>
                         <li>
-                          <a href="/aboutus">About Us</a>
+                          <Link to="/aboutus"><a>About Us</a></Link>
                         </li>
                     </ul>
                 </nav>
@@ -55,7 +55,7 @@ const Home = () => {
                       <Link to = "/login"  id="login"><a>Log in</a></Link>
                     </li>
                     <li>
-                      <a href="/signup" id="signup">Sign Up</a>
+                      <Link to="/signup" id="signup"><a>Sign Up</a></Link>
                     </li>
                   </ul>
                 </nav>
