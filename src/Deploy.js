@@ -46,7 +46,8 @@ const Deploy = () =>{
                         </pre>
                       </li>
                     </ul>
-                    <a href='/userhome'><button>Done</button></a>
+                    <Link to='/userhome'><a ><button>Done</button></a></Link>
+                    
             </div>
         </div>
       );

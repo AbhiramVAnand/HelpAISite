@@ -69,12 +69,15 @@ const UserHome = () =>{
                     <h1 id='heading'>Chatbots</h1>
                     <div className='chatbot-list'>
                         <div className='items'  id='add'>
-                            <a href='/createcb' id='add-chatbot'>
-                                <span id='item'>
-                                    <FontAwesomeIcon icon={faCirclePlus}  id='add-icon' />
-                                    <div id='title'>Add new</div>
-                                </span>
-                            </a>
+                            <Link to='/createcb' id='add-chatbot'>
+                                <a>
+                                    <span id='item'>
+                                        <FontAwesomeIcon icon={faCirclePlus}  id='add-icon' />
+                                        <div id='title'>Add new</div>
+                                    </span>
+                                </a>
+                            </Link>
+                            
                         </div>                    
                         {dataList.map((item) => (
                             <div className='items'>
