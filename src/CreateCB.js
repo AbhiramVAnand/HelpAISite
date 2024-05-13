@@ -44,13 +44,13 @@ const CreateCB = () =>{
         setIsLoading(true);
         try {
             
-            const response = await fetch('http://127.0.0.1:5000/init?url=' + encodeURIComponent(urlValue), {
+            const response = await fetch('https://f13e-103-179-196-164.ngrok-free.app/init?url=' + encodeURIComponent(urlValue), {
                 method: 'GET', 
                 headers: {
                   'Content-Type': 'application/json' 
                   }
               });
-            const response2 = await fetch('http://127.0.0.1:5000/create', {
+            const response2 = await fetch('https://f13e-103-179-196-164.ngrok-free.app/create', {
                 method: 'GET', 
                 headers: {
                   'Content-Type': 'application/json' 
