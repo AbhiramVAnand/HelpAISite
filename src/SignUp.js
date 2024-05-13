@@ -5,7 +5,7 @@ import "firebase/compat/auth"
 import "firebase/compat/database"
 import { getDatabase, ref, set } from 'firebase/database';
 import GetMail from './GetMail.js';
-import logo from '../img/icon.svg'
+import logo from './img/icon.svg'
 import setLoginCookie from './setLoginCookie.js';
 
 const app = firebase.initializeApp({

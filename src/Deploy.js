@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import logo from '../img/logowhite.svg'
+import logo from './img/logowhite.svg'
 
 const Deploy = () =>{
     return (

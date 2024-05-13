@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
-import '../App.css'
-import logo from '../img/icon.svg'
+import './App.css'
+import logo from './img/icon.svg'
 import setMailCookie from './setMailCookie'
 
 const Home = () => {

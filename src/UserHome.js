@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import GetUName from './GetUName';
-import logo from '../img/logowhite.svg'
+import logo from './img/logowhite.svg'
 import firebase from "firebase/compat/app"
 import "firebase/compat/auth"
 import "firebase/compat/database"

@@ -6,8 +6,10 @@ import "firebase/compat/auth"
 import "firebase/compat/database"
 import { getDatabase, ref, set, onValue} from 'firebase/database';
 import {getAuth} from 'firebase/auth'
-import logo from '../img/icon.svg'
-import logowhite from '../img/logowhite.svg'
+import logo from './img/icon.svg'
+import logowhite from './img/logowhite.svg'
+import './App.css'
+
 
 const app = firebase.initializeApp({
     apiKey: "AIzaSyCDRAoBX79TlG3bj5vrE4ozvB2unbIgq7w",
