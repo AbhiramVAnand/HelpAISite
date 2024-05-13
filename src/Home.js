@@ -52,7 +52,7 @@ const Home = () => {
                 <nav className='loginsignup'>
                   <ul>
                     <li>
-                      <Link to = "/login"><a id="login">Log in</a></Link>
+                      <Link to = "/login" id="login"></Link>
                     </li>
                     <li>
                       <a href="/signup" id="signup">Sign Up</a>

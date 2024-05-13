@@ -45,7 +45,7 @@
   justify-content: space-evenly;
 }
 
-.home-container .pages a {
+.home-container .pages Link {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-size: large;
@@ -54,7 +54,7 @@
   padding: 10px 15px; /* Adjust button padding */
 }
 
-.home-container .pages a:hover {
+.home-container .pages Link:hover {
   color: #2a2f3e; /* Hover color for buttons */
 }
 
