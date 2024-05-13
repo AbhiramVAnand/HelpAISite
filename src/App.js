@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import isLoggedIn from './IsLoggedIn';
-import SignUp from './pages/SignUp';
-import Home from './pages/Home';
-import UserHome from './pages/UserHome';
-import Login from './pages/Login';
-import CreateCB from './pages/CreateCB';
-import Deploy from './pages/Deploy';
-import Documentation from './pages/Documentation'
-import AboutUs from './pages/AboutUs'
+import SignUp from './SignUp';
+import Home from './Home';
+import UserHome from './UserHome';
+import Login from './Login';
+import CreateCB from './CreateCB';
+import Deploy from './Deploy';
+import Documentation from './Documentation'
+import AboutUs from './AboutUs'
 
 
 const App = () => {
